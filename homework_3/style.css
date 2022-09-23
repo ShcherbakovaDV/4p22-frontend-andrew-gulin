@@ -1,0 +1,108 @@
+td {
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+    height: 50px;
+}
+
+.orange {
+    background-color: rgb(211,120,69);
+}
+
+.biruza {
+    background-color: rgb(79,156,152);
+}
+
+.yellow {
+    background-color: rgb(199,179,83);
+}
+
+.darkgreen {
+    background-color: rgb(123,153,88);
+}
+
+.green {
+    background-color: rgb(163,165,100);
+}
+
+.brawngreen {
+    background-color: rgb(163,165,100);
+}
+
+.grey {
+    background-color: rgb(126,138,118);
+}
+
+.blue {
+    background-color: rgb(74,141,183);
+}
+
+.red {
+    background-color: rgb(165,78,70);
+}
+
+.purple {
+    background-color: rgb(128,88,157);
+}
+
+.textright {
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+}
+
+caption {
+    padding-bottom: 10px;
+}
+
+.border_left {
+    border-radius: 0px 0px 0px 50px;
+}
+
+.actiniy {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.conteiner {
+    position: relative;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.border_left2::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 52px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 0px;
+    right: 0%;
+    z-index: 1;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(160, 92, 19);
+    border: none;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 2px 2px rgb(234, 177, 97);
+    margin-right: 15px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(114, 73, 29);
+    box-shadow: 5px 2px 2px 2px rgb(151, 114, 62);
+}
+
+button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+form {
+    display: inline-block;
+}
